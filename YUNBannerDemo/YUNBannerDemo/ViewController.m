@@ -41,6 +41,8 @@
     self.banner.dataSource = self;
     self.banner.delegate = self;
     self.banner.shouldLoop = YES;
+    self.banner.autoScroll = YES;
+    self.banner.scrollInterval = 5.0f;
     [self.view addSubview:self.banner];
     
     // 设置frame
